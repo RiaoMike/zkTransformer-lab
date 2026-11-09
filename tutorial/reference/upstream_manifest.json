@@ -1,0 +1,368 @@
+{
+  "repository": "https://github.com/uiuc-kang-lab/zkTransformer",
+  "commit": "55344d7c37232b4dbe8aa479e139967230d8449b",
+  "retrieved": "2026-11-08",
+  "method": "GitHub connector file snapshot (not a git checkout)",
+  "files": [
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "3b05260be1acbca6301fb6faf5ef4f6e7109599c",
+      "size": 91
+    },
+    {
+      "path": "Cargo.toml",
+      "git_blob_sha1": "c03ae37f03cf8050ec6eacfab6f332bb57d0b97f",
+      "size": 2545
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "e888a31651db69d179551501002f5e7271196446",
+      "size": 4131
+    },
+    {
+      "path": "benches/kzh_openings_fast.rs",
+      "git_blob_sha1": "f5b3ec19a80e6158470a196974e2b0668b1ec9a4",
+      "size": 8535
+    },
+    {
+      "path": "benches/permute_prove.rs",
+      "git_blob_sha1": "9c57cf84c37eb0f08cc7bd1b1f3db1decb549aa6",
+      "size": 3918
+    },
+    {
+      "path": "benches/sumcheck_prover.rs",
+      "git_blob_sha1": "4e402157bba17fdb0464cd64be930990e42933a5",
+      "size": 2156
+    },
+    {
+      "path": "config.yaml",
+      "git_blob_sha1": "a76e428ca7aadebcfbe8ddafddfb6b350f4139ad",
+      "size": 83
+    },
+    {
+      "path": "parse_prove_timing.py",
+      "git_blob_sha1": "0270257c74364e44c6a4c20b081ab8cce8860da0",
+      "size": 7247
+    },
+    {
+      "path": "parse_timing.py",
+      "git_blob_sha1": "f85e2693065a8977280d75894dbf11e7a0511739",
+      "size": 2863
+    },
+    {
+      "path": "ppl_repro/README.md",
+      "git_blob_sha1": "42ca8f63c98d30de820ecd40e47e5d2a5d8820c1",
+      "size": 2204
+    },
+    {
+      "path": "ppl_repro/gpt2.py",
+      "git_blob_sha1": "bbf8c58ef5f28dcb768636592e318179322f28af",
+      "size": 3961
+    },
+    {
+      "path": "ppl_repro/gpt2_quant.py",
+      "git_blob_sha1": "586933a76c52661ba11cd656a49cdbb618332c83",
+      "size": 19516
+    },
+    {
+      "path": "ppl_repro/llama.py",
+      "git_blob_sha1": "c5690fc03154689abc5196d356004cd7cb7bb2c4",
+      "size": 6105
+    },
+    {
+      "path": "ppl_repro/llama_quant.py",
+      "git_blob_sha1": "a60eb88b5415b3c9fa46ef48c2df117bd56b5f2f",
+      "size": 21732
+    },
+    {
+      "path": "rustfmt.toml",
+      "git_blob_sha1": "5fa7a0c9cd190bc4983553dbe510c68f288dc720",
+      "size": 49
+    },
+    {
+      "path": "src/basicblock/add.rs",
+      "git_blob_sha1": "1724659c856fbdc5c7212573aa94b4b2a5512fb7",
+      "size": 8042
+    },
+    {
+      "path": "src/basicblock/clamp.rs",
+      "git_blob_sha1": "786444eb2a30fa4d7e408e3c3f39938b5fc222e9",
+      "size": 3735
+    },
+    {
+      "path": "src/basicblock/einsum.rs",
+      "git_blob_sha1": "f59f7ae53134e05ced3429532a10edc310e5b459",
+      "size": 24987
+    },
+    {
+      "path": "src/basicblock/exp.rs",
+      "git_blob_sha1": "1d08c7c5a4f653e32327550a9163400e564d4f39",
+      "size": 8802
+    },
+    {
+      "path": "src/basicblock/llama.rs",
+      "git_blob_sha1": "de96a2483eea91bb5345ab4bee2e2d26c0e66cdf",
+      "size": 11645
+    },
+    {
+      "path": "src/basicblock/mod.rs",
+      "git_blob_sha1": "45b2634d513039547af8ed5b38ed9a83a9de467b",
+      "size": 8231
+    },
+    {
+      "path": "src/basicblock/permute.rs",
+      "git_blob_sha1": "26ff053db64b136d6fdefb798f33ba1547a9d733",
+      "size": 5399
+    },
+    {
+      "path": "src/basicblock/range.rs",
+      "git_blob_sha1": "cd1b2ac8163db0d887c3ada776d2a11b3400cd69",
+      "size": 2989
+    },
+    {
+      "path": "src/basicblock/reducer.rs",
+      "git_blob_sha1": "54918147fa85bfd4577474dfa3b9a426c7cd493a",
+      "size": 3911
+    },
+    {
+      "path": "src/basicblock/scale.rs",
+      "git_blob_sha1": "c109564e95eab35a669171cdea9ab4b3d0e94751",
+      "size": 6656
+    },
+    {
+      "path": "src/basicblock/shape.rs",
+      "git_blob_sha1": "fc1a144964e99ebe6893c2251d741f3cde436b22",
+      "size": 1152
+    },
+    {
+      "path": "src/bin/gpt2.rs",
+      "git_blob_sha1": "c08b80a03d859d15d727653f587d71cc222f2bbe",
+      "size": 13466
+    },
+    {
+      "path": "src/bin/llama.rs",
+      "git_blob_sha1": "17ece8540691caa2438e0c00795759e858e33d52",
+      "size": 11644
+    },
+    {
+      "path": "src/bin/nanogpt.rs",
+      "git_blob_sha1": "2896bf9682c9925da22d423e1978caecb2757b7b",
+      "size": 10885
+    },
+    {
+      "path": "src/bin/nonstructured_exp.rs",
+      "git_blob_sha1": "e7b0a95715d98f5f1476a450e4a28bc81d7f1e69",
+      "size": 5956
+    },
+    {
+      "path": "src/bin/oneshot_gpt2.rs",
+      "git_blob_sha1": "dcd3eedeed5f5ca2897b614bed4c479b46e2a04d",
+      "size": 19009
+    },
+    {
+      "path": "src/bin/oneshot_llama.rs",
+      "git_blob_sha1": "e75afc79ac3596efd35de24048284684850dde6c",
+      "size": 15255
+    },
+    {
+      "path": "src/bin/setup.rs",
+      "git_blob_sha1": "f4da43d1b3f02eab63b7c00c71ad7c376f7f4619",
+      "size": 5965
+    },
+    {
+      "path": "src/bin/structured_exp.rs",
+      "git_blob_sha1": "cc93f3622a11aeec27538c7041318e93c13ebd40",
+      "size": 5570
+    },
+    {
+      "path": "src/crypto/mod.rs",
+      "git_blob_sha1": "5d0f7cdf0b6c8fc6747e744fdced0497a844d23f",
+      "size": 295
+    },
+    {
+      "path": "src/crypto/polycommit/kzh2.rs",
+      "git_blob_sha1": "ff72a9c6c11f45233f5cf643ed77b95218ceadb8",
+      "size": 32632
+    },
+    {
+      "path": "src/crypto/polycommit/kzh3.rs",
+      "git_blob_sha1": "82e22159a646c39fc99532a27b5c4c1b71d31f86",
+      "size": 36315
+    },
+    {
+      "path": "src/crypto/polycommit/mod.rs",
+      "git_blob_sha1": "c8d4cce9538f3d11af24aee5f8ca8cbfba4d284b",
+      "size": 18657
+    },
+    {
+      "path": "src/crypto/polycommit/sparse_kzh2.rs",
+      "git_blob_sha1": "3b7c96143a5de9f50ef3ebaa3bc6d4300c9348ea",
+      "size": 9902
+    },
+    {
+      "path": "src/crypto/polycommit/sparse_kzh3.rs",
+      "git_blob_sha1": "b9d1c26a6e7a85cf00cc3602ed4052acd739cebd",
+      "size": 18317
+    },
+    {
+      "path": "src/crypto/srs_storage.rs",
+      "git_blob_sha1": "34f709447a06702c8dc4b3eb542a78138073c7cd",
+      "size": 9873
+    },
+    {
+      "path": "src/crypto/sumcheck/linear_prover.rs",
+      "git_blob_sha1": "25b7211ce03a65ba5640bb0cb62da996fcda02c7",
+      "size": 22565
+    },
+    {
+      "path": "src/crypto/sumcheck/mod.rs",
+      "git_blob_sha1": "d443421ca44c6ed1fccd9994cba3c17bc1d5837b",
+      "size": 228
+    },
+    {
+      "path": "src/crypto/sumcheck/prover.rs",
+      "git_blob_sha1": "8f7d024fdac8f15a70d239ab5032ae046e45c562",
+      "size": 1856
+    },
+    {
+      "path": "src/crypto/sumcheck/verifier.rs",
+      "git_blob_sha1": "a1725678e72882e07c72d8e5197a3777c301e98e",
+      "size": 2431
+    },
+    {
+      "path": "src/dag/bert.rs",
+      "git_blob_sha1": "680b9b615950e29d0269e62549eb0af58d4a6b34",
+      "size": 12807
+    },
+    {
+      "path": "src/dag/builder.rs",
+      "git_blob_sha1": "34d40f80aebbaf56c808cf49070ea0f7c4e8f2ce",
+      "size": 21734
+    },
+    {
+      "path": "src/dag/dense.rs",
+      "git_blob_sha1": "1204fa648876f47ed6771acc2aaf0703f84217a2",
+      "size": 615
+    },
+    {
+      "path": "src/dag/gpt2.rs",
+      "git_blob_sha1": "2b7826657cadef7f1676c06e1e4291a192eb7f54",
+      "size": 13487
+    },
+    {
+      "path": "src/dag/gptj.rs",
+      "git_blob_sha1": "f2be786f4318dec7012d795e94abbb235e628b73",
+      "size": 11239
+    },
+    {
+      "path": "src/dag/llama.rs",
+      "git_blob_sha1": "08de47992a95b190ab7ba6e770a71f9f0fe211e7",
+      "size": 23693
+    },
+    {
+      "path": "src/dag/mod.rs",
+      "git_blob_sha1": "aa30a17ac3b6fac5437028f8c835c11377a79619",
+      "size": 62841
+    },
+    {
+      "path": "src/dag/nanogpt.rs",
+      "git_blob_sha1": "95978fd3d32ed864931988b60b0f8d83f902bbba",
+      "size": 10460
+    },
+    {
+      "path": "src/dag/oneshot.rs",
+      "git_blob_sha1": "37d6387f1cd647b3a06901e94ae3a98ad1101435",
+      "size": 4729
+    },
+    {
+      "path": "src/lib.rs",
+      "git_blob_sha1": "fb551e32d1a6cbc730cb84e6bdecccad83831cb4",
+      "size": 1568
+    },
+    {
+      "path": "src/main.rs",
+      "git_blob_sha1": "3143d153992aed67451530329e89823caa3ee7b3",
+      "size": 7534
+    },
+    {
+      "path": "src/onnx.rs",
+      "git_blob_sha1": "dbf36bf34c868c0e0a1c60e2cc2bbefedcfded5d",
+      "size": 8555
+    },
+    {
+      "path": "src/util/arith.rs",
+      "git_blob_sha1": "547214258cdcc7c2ae38495c732a770607d22a0f",
+      "size": 12577
+    },
+    {
+      "path": "src/util/config.rs",
+      "git_blob_sha1": "be8a4c7cbcfa0918ae6225005c13b6fa7f4fc7e6",
+      "size": 330
+    },
+    {
+      "path": "src/util/mod.rs",
+      "git_blob_sha1": "85895f5239477e730702b43fddaeac9e71074b91",
+      "size": 103
+    },
+    {
+      "path": "src/util/poly.rs",
+      "git_blob_sha1": "2df1568d74598b607437e30b5e1dd375176a8d61",
+      "size": 50116
+    },
+    {
+      "path": "src/util/serialization.rs",
+      "git_blob_sha1": "25229001618caa9c7ff7f0ff57456fb3947836f5",
+      "size": 5019
+    },
+    {
+      "path": "src/util/shape.rs",
+      "git_blob_sha1": "85be2c3c9f161818901b525b951dbce44735c762",
+      "size": 5292
+    },
+    {
+      "path": "src/util/transcript.rs",
+      "git_blob_sha1": "ff4786febe9b8a3d2c4673a324e6b4fb7322d754",
+      "size": 1435
+    },
+    {
+      "path": "tests/test_basicblock_add.rs",
+      "git_blob_sha1": "7d94b24ec3e500fdb361d25416168ec751e9662c",
+      "size": 11123
+    },
+    {
+      "path": "tests/test_fix_variables.rs",
+      "git_blob_sha1": "79bb3f0aae2308583d3849be452126996035c9ad",
+      "size": 12440
+    },
+    {
+      "path": "tests/test_kzh2.rs",
+      "git_blob_sha1": "0cbe347656e3c9fcf56189693ddc2888f8905150",
+      "size": 13952
+    },
+    {
+      "path": "tests/test_kzh3.rs",
+      "git_blob_sha1": "f69e00d814a846f9cf9ac6e2d71bfbd845444ec2",
+      "size": 9964
+    },
+    {
+      "path": "tests/test_lagrange_basis.rs",
+      "git_blob_sha1": "7f97e34ceb13c08537837bb67e3c36244c3ca297",
+      "size": 4421
+    },
+    {
+      "path": "tests/test_linear_sumcheck.rs",
+      "git_blob_sha1": "303c95754123fdfcb34f0d1b8a7592d9823f4ac0",
+      "size": 17034
+    },
+    {
+      "path": "tests/test_sd_sumcheck.rs",
+      "git_blob_sha1": "1fd6cc8aded5cf76f31e30feb3b75bb54da8d782",
+      "size": 3538
+    }
+  ]
+}

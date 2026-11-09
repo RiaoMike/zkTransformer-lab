@@ -1,0 +1,17 @@
+[package]
+name = "zktransformer-tutorial"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+zk_torch_2 = { path = "../cpu" }
+plonky2 = { version = "0.2.2", features = ["timing"] }
+
+# path 依赖中的 patch 不会自动成为根包的 patch；这里与上游保持一致。
+[patch.crates-io]
+ark-bn254 = { git = "https://github.com/a16z/arkworks-algebra", branch = "markos/4dim-glv" }
+ark-ff = { git = "https://github.com/a16z/arkworks-algebra", branch = "markos/4dim-glv" }
+ark-ec = { git = "https://github.com/a16z/arkworks-algebra", branch = "markos/4dim-glv" }
+ark-poly = { git = "https://github.com/a16z/arkworks-algebra", branch = "markos/4dim-glv" }
+ark-serialize = { git = "https://github.com/a16z/arkworks-algebra", branch = "markos/4dim-glv" }
